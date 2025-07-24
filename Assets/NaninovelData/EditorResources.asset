@@ -5310,3 +5310,11 @@ MonoBehaviour:
       guid: ebfced7cd7f26f243b7136154ec5f763
   - Id: Characters/fa3cddb7-570d-4c36-a77f-a37c43efae2c
     Resources: []
+  - Id: Characters/022f8b5b-781f-4cb2-a5bb-249042fddeba
+    Resources:
+    - name: Red
+      pathPrefix: "Characters/\u0421\u0432\u0435\u0447\u0435\u043D\u0438\u0435"
+      guid: f59a725d179dc9f4584bb06a839987b1
+    - name: Green
+      pathPrefix: "Characters/\u0421\u0432\u0435\u0447\u0435\u043D\u0438\u0435"
+      guid: aeee454772f2f8142969734aa3dbbcd6

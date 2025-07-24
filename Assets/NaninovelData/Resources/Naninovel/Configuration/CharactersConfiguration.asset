@@ -80,6 +80,7 @@ MonoBehaviour:
     - "\u0410\u043D\u0434\u0440\u0435\u0439"
     - "\u0414\u043C\u0438\u0442\u0440\u0438\u0439"
     - "\u0421\u0435\u0440\u0433\u0435\u0439"
+    - "\u0421\u0432\u0435\u0447\u0435\u043D\u0438\u0435"
     metas:
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -703,6 +704,48 @@ MonoBehaviour:
       UseCharacterColor: 1
       NameColor: {r: 0.34509805, g: 0.48235294, b: 1, a: 1}
       MessageColor: {r: 0.76862746, g: 0.8156863, b: 1, a: 1}
+      HighlightWhenSpeaking: 0
+      HighlightCharacterCount: 0
+      SpeakingPose: 
+      NotSpeakingPose: 
+      PlaceOnTop: 1
+      HighlightDuration: 0.35
+      HighlightEasing: 1
+      MessageSound: 
+      MessageSoundPlayback: 0
+      VoiceSource: {fileID: 0}
+      LinkedPrinter: 
+      Poses: []
+    - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      Loader:
+        PathPrefix: Characters
+        ProviderTypes:
+        - Naninovel.AddressableResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      guid: 022f8b5b-781f-4cb2-a5bb-249042fddeba
+      customData:
+        rid: -2
+      Pivot: {x: 0.5, y: 0}
+      PixelsPerUnit: 100
+      EnableDepthPass: 1
+      DepthAlphaCutoff: 0.5
+      CustomTextureShader: {fileID: 0}
+      CustomSpriteShader: {fileID: 0}
+      RenderTexture: {fileID: 0}
+      RenderRectangle:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+      BakedLookDirection: 1
+      DisplayName: 
+      UseCharacterColor: 0
+      NameColor: {r: 1, g: 1, b: 1, a: 1}
+      MessageColor: {r: 1, g: 1, b: 1, a: 1}
       HighlightWhenSpeaking: 0
       HighlightCharacterCount: 0
       SpeakingPose: 
